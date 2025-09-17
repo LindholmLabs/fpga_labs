@@ -32,7 +32,11 @@ entity top is
         led5 : out std_logic;
         led6 : out std_logic;
         led7 : out std_logic;
-        io_btn0 : in std_logic
+        io_btn0 : in std_logic;
+        io_btn1 : in std_logic;
+        io_btn2 : in std_logic;
+        io_btn3 : in std_logic;
+        io_btn4 : in std_logic
     );
 end top;
 
@@ -40,10 +44,10 @@ architecture Behavioral of top is
 begin
 
     led0 <= io_btn0;
-    led1 <= '1';
-    led2 <= '1';
-    led3 <= '1';
-    led4 <= '1';
+    led1 <= io_btn1;
+    led2 <= io_btn2;
+    led3 <= io_btn3;
+    led4 <= io_btn4;
     led5 <= '1';
     led6 <= '1';
     led7 <= '1';

@@ -10,3 +10,7 @@ set_property -dict { PACKAGE_PIN W20 IOSTANDARD LVCMOS33 } [get_ports {led7}]
 
 # BUTTONs
 set_property -dict { PACKAGE_PIN E2 IOSTANDARD LVCMOS33 } [get_ports {io_btn0}]
+set_property -dict { PACKAGE_PIN D2 IOSTANDARD LVCMOS33 } [get_ports {io_btn1}]
+set_property -dict { PACKAGE_PIN M1 IOSTANDARD LVCMOS33 } [get_ports {io_btn2}]
+set_property -dict { PACKAGE_PIN L1 IOSTANDARD LVCMOS33 } [get_ports {io_btn3}]
+set_property -dict { PACKAGE_PIN L4 IOSTANDARD LVCMOS33 } [get_ports {io_btn4}]
