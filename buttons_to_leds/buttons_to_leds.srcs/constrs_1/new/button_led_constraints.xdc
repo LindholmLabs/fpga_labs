@@ -8,4 +8,5 @@ set_property -dict { PACKAGE_PIN U21 IOSTANDARD LVCMOS33 } [get_ports {led5}]
 set_property -dict { PACKAGE_PIN T20 IOSTANDARD LVCMOS33 } [get_ports {led6}]
 set_property -dict { PACKAGE_PIN W20 IOSTANDARD LVCMOS33 } [get_ports {led7}]
 
-# BUTTON
+# BUTTONs
+set_property -dict { PACKAGE_PIN E2 IOSTANDARD LVCMOS33 } [get_ports {io_btn0}]
