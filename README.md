@@ -9,3 +9,4 @@
 # SOFTWARE RESOURCES
 - Vivado - [download](https://www.xilinx.com/support/download.html)
 - Alchitry Labs - [download](https://alchitry.com/alchitry-labs/)
+- Alchitry Platinum v2 part number in vivado: `xc7a100tfgg484-1`
