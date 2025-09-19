@@ -48,8 +48,8 @@ begin
     led2 <= io_btn2;
     led3 <= io_btn3;
     led4 <= io_btn4;
-    led5 <= '1';
-    led6 <= '1';
+    led5 <= io_btn0 and io_btn3;
+    led6 <= io_btn0 or io_btn3;
     led7 <= '1';
     
 end Behavioral;
